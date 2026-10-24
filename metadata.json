@@ -1,0 +1,6 @@
+{
+  "name": "AUTOFLUX — Car & Bike Accessories",
+  "description": "Discover car and bike accessories, explore fitment guidance with rotatable previews, submit pre-orders, and chat with workshop mechanics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

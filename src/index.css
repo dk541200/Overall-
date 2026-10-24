@@ -1,0 +1,195 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #f7f4ee;
+    --panel: #fffdf8;
+    --panel2: #eee9df;
+    --orange: #ef531d;
+    --orange-hover: #d84512;
+    --gold: #ff8a35;
+    --text: #171717;
+    --muted: #696862;
+    --line: rgba(23, 23, 23, 0.09);
+    --white: #ffffff;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+}
+
+.brand-mark {
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);
+}
+
+/* Custom scrollbars for clean panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(23, 23, 23, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(23, 23, 23, 0.3);
+}
+
+/* AUTOFLUX Crystal-Glass Customer Navigation (Exact reference implementation) */
+.af-crystal-nav {
+  position: fixed;
+  z-index: 1000;
+  left: 10px;
+  right: 10px;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: max(10px, env(safe-area-inset-bottom));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4px;
+  padding: 9px 7px;
+  border-radius: 28px;
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.82), rgba(237, 244, 252, 0.60) 35%, rgba(205, 222, 239, 0.43) 65%, rgba(255, 255, 255, 0.76));
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  backdrop-filter: blur(25px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 18px 32px rgba(55, 68, 85, 0.18), 0 5px 20px rgba(100, 160, 220, 0.18), inset 0 4px 8px rgba(255, 255, 255, 0.98), inset 0 -7px 12px rgba(105, 135, 170, 0.15);
+}
+
+.af-crystal-btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 7px 1px;
+  border: 1px solid transparent;
+  border-radius: 19px;
+  background: transparent;
+  color: #514b48;
+  cursor: pointer;
+  font: 700 clamp(9px, 2.5vw, 11px)/1.1 "Space Grotesk", sans-serif;
+  letter-spacing: -0.2px;
+  transition: transform 0.25s, box-shadow 0.25s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.af-crystal-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0.98), rgba(120, 195, 255, 0.68), rgba(194, 155, 255, 0.57), rgba(255, 180, 215, 0.60), rgba(115, 210, 255, 0.74), rgba(255, 255, 255, 0.98));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.af-crystal-btn::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 9%;
+  width: 82%;
+  height: 48%;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.3), transparent);
+  filter: blur(3px);
+  pointer-events: none;
+}
+
+.af-crystal-btn:hover:not(.is-active) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(65, 85, 110, 0.12);
+}
+
+.af-crystal-btn svg,
+.af-crystal-btn span {
+  position: relative;
+  z-index: 4;
+}
+
+.af-crystal-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.2;
+}
+
+.af-crystal-btn.is-active {
+  color: #293548;
+  border-color: rgba(255, 255, 255, 0.95);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(224, 239, 253, 0.75) 42%, rgba(194, 219, 244, 0.63), rgba(255, 255, 255, 0.88));
+  box-shadow: 0 8px 17px rgba(65, 85, 110, 0.18), 0 0 20px rgba(125, 190, 255, 0.24), inset 0 4px 8px #fff, inset 0 -6px 10px rgba(110, 145, 180, 0.18);
+}
+
+.af-crystal-btn:active {
+  transform: scale(0.94);
+}
+
+.af-crystal-badge {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  z-index: 5;
+  background: #ef531d;
+  color: #ffffff;
+  font-size: 0.58rem;
+  font-weight: 900;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+  box-shadow: 0 2px 5px rgba(239, 83, 29, 0.4);
+}
+
+@media (max-width: 380px) {
+  .af-crystal-nav {
+    left: 5px;
+    right: 5px;
+    gap: 2px;
+    padding: 7px 4px;
+  }
+  .af-crystal-btn {
+    min-height: 55px;
+    font-size: 9px;
+    gap: 4px;
+  }
+  .af-crystal-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .af-crystal-btn {
+    transition: none;
+  }
+}
+

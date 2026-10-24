@@ -1,0 +1,285 @@
+{
+  "adminEmail": "studyai9211@gmail.com",
+  "adminPasswordHash": "5e2be8e83a00e130c1ae9ae2fa0f866c7a7324115411ffe8c1a9ad337ba7340f47596142de558f54c2082a1cfe61dc9050718c20e31cf632c71cf0a99893010b",
+  "publishedProducts": [
+    {
+      "id": 1,
+      "brand": "RoadForm",
+      "name": "Sport Alloy Wheel — 17 inch",
+      "cat": "Exterior",
+      "price": 8990,
+      "old": 10990,
+      "tag": "Popular",
+      "img": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Sport-inspired wheel style. Confirm wheel size, PCD, offset and vehicle compatibility before ordering.",
+      "fit": "Requires exact wheel specifications and vehicle fitment check.",
+      "listingType": "part"
+    },
+    {
+      "id": 2,
+      "brand": "GripCraft",
+      "name": "Premium Steering Cover",
+      "cat": "Interior",
+      "price": 799,
+      "old": 1099,
+      "tag": "Bestseller",
+      "img": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=700&q=85",
+      "desc": "Comfort-focused steering cover in a sporty finish. Check steering wheel diameter and airbag compatibility.",
+      "fit": "Measure steering wheel and ensure no interference with controls or airbags.",
+      "listingType": "part"
+    },
+    {
+      "id": 3,
+      "brand": "CabinPro",
+      "name": "Universal Seat Cushion Set",
+      "cat": "Interior",
+      "price": 2499,
+      "old": 3199,
+      "tag": "New",
+      "img": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Seat comfort upgrade with a clean, premium cabin look. Actual fit varies by seat shape and airbags.",
+      "fit": "Check seat dimensions, side airbags and attachment points.",
+      "listingType": "part"
+    },
+    {
+      "id": 4,
+      "brand": "ClearDrive",
+      "name": "Car Care & Cleaning Kit",
+      "cat": "Cleaning",
+      "price": 1199,
+      "old": 1599,
+      "tag": "Value pack",
+      "img": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=700&q=85",
+      "desc": "A sample car-care bundle for everyday cleaning and detailing. Confirm exact included products.",
+      "fit": "Universal care kit; verify surfaces and instructions for each included product.",
+      "listingType": "part"
+    },
+    {
+      "id": 5,
+      "brand": "NightShift",
+      "name": "LED Auxiliary Light Kit",
+      "cat": "Lighting",
+      "price": 1899,
+      "old": 2399,
+      "tag": "Popular",
+      "img": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=85",
+      "desc": "Auxiliary illumination concept. Ensure compliance with regional road regulations and proper wiring.",
+      "fit": "Requires vehicle electrical check and mounting bracket assessment.",
+      "listingType": "part"
+    },
+    {
+      "id": 6,
+      "brand": "MotoGuard",
+      "name": "Bike Phone Mount & Charger",
+      "cat": "Electronics",
+      "price": 1499,
+      "old": 1899,
+      "tag": "Bike pick",
+      "img": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Handlebar mount with vibration damping and USB fast-charge port. Compatible with 22-32mm handlebars.",
+      "fit": "Handlebars 22mm–32mm diameter; 12V battery connection required.",
+      "listingType": "part"
+    },
+    {
+      "id": 7,
+      "brand": "Royal Enfield",
+      "name": "Classic 350 Stealth Black (2022)",
+      "cat": "Used Vehicles",
+      "price": 165000,
+      "old": 185000,
+      "tag": "Verified Bike",
+      "img": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Single owner, 14,200 km driven, complete service history at authorized workshop, zero insurance claims.",
+      "fit": "Certified 40-point inspection completed. All registration documents verified.",
+      "listingType": "used",
+      "year": "2022",
+      "condition": "Excellent (14,200 km)"
+    }
+  ],
+  "publishedHero": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1900&q=90",
+  "draftProducts": [
+    {
+      "id": 1,
+      "brand": "RoadForm",
+      "name": "Sport Alloy Wheel — 17 inch",
+      "cat": "Exterior",
+      "price": 8990,
+      "old": 10990,
+      "tag": "Popular",
+      "img": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Sport-inspired wheel style. Confirm wheel size, PCD, offset and vehicle compatibility before ordering.",
+      "fit": "Requires exact wheel specifications and vehicle fitment check.",
+      "listingType": "part"
+    },
+    {
+      "id": 2,
+      "brand": "GripCraft",
+      "name": "Premium Steering Cover",
+      "cat": "Interior",
+      "price": 799,
+      "old": 1099,
+      "tag": "Bestseller",
+      "img": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=700&q=85",
+      "desc": "Comfort-focused steering cover in a sporty finish. Check steering wheel diameter and airbag compatibility.",
+      "fit": "Measure steering wheel and ensure no interference with controls or airbags.",
+      "listingType": "part"
+    },
+    {
+      "id": 3,
+      "brand": "CabinPro",
+      "name": "Universal Seat Cushion Set",
+      "cat": "Interior",
+      "price": 2499,
+      "old": 3199,
+      "tag": "New",
+      "img": "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Seat comfort upgrade with a clean, premium cabin look. Actual fit varies by seat shape and airbags.",
+      "fit": "Check seat dimensions, side airbags and attachment points.",
+      "listingType": "part"
+    },
+    {
+      "id": 4,
+      "brand": "ClearDrive",
+      "name": "Car Care & Cleaning Kit",
+      "cat": "Cleaning",
+      "price": 1199,
+      "old": 1599,
+      "tag": "Value pack",
+      "img": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=700&q=85",
+      "desc": "A sample car-care bundle for everyday cleaning and detailing. Confirm exact included products.",
+      "fit": "Universal care kit; verify surfaces and instructions for each included product.",
+      "listingType": "part"
+    },
+    {
+      "id": 5,
+      "brand": "NightShift",
+      "name": "LED Auxiliary Light Kit",
+      "cat": "Lighting",
+      "price": 1899,
+      "old": 2399,
+      "tag": "Popular",
+      "img": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=85",
+      "desc": "Auxiliary illumination concept. Ensure compliance with regional road regulations and proper wiring.",
+      "fit": "Requires vehicle electrical check and mounting bracket assessment.",
+      "listingType": "part"
+    },
+    {
+      "id": 6,
+      "brand": "MotoGuard",
+      "name": "Bike Phone Mount & Charger",
+      "cat": "Electronics",
+      "price": 1499,
+      "old": 1899,
+      "tag": "Bike pick",
+      "img": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Handlebar mount with vibration damping and USB fast-charge port. Compatible with 22-32mm handlebars.",
+      "fit": "Handlebars 22mm–32mm diameter; 12V battery connection required.",
+      "listingType": "part"
+    },
+    {
+      "id": 7,
+      "brand": "Royal Enfield",
+      "name": "Classic 350 Stealth Black (2022)",
+      "cat": "Used Vehicles",
+      "price": 165000,
+      "old": 185000,
+      "tag": "Verified Bike",
+      "img": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=700&q=85",
+      "desc": "Single owner, 14,200 km driven, complete service history at authorized workshop, zero insurance claims.",
+      "fit": "Certified 40-point inspection completed. All registration documents verified.",
+      "listingType": "used",
+      "year": "2022",
+      "condition": "Excellent (14,200 km)"
+    }
+  ],
+  "draftHero": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1900&q=90",
+  "isLivePaused": false,
+  "lastPublishedAt": 1792833888766,
+  "lastDraftSavedAt": 1792833888765,
+  "orders": [
+    {
+      "id": "AF-882194",
+      "productId": 1,
+      "product": "Sport Alloy Wheel — 17 inch",
+      "price": 8990,
+      "vehicle": "Car · Hyundai Creta",
+      "year": "2023",
+      "date": "2026-10-28",
+      "time": "Morning (10 AM - 1 PM)",
+      "name": "Sanjay Rawat",
+      "phone": "+91 98112 44321",
+      "notes": "Gloss black finish. Need on-site fitment.",
+      "status": "Confirmed",
+      "createdAt": 1792660973903
+    },
+    {
+      "id": "AF-419022",
+      "productId": 6,
+      "product": "Bike Phone Mount & Charger",
+      "price": 1499,
+      "vehicle": "Bike · KTM Duke 250",
+      "year": "2022",
+      "date": "2026-10-30",
+      "time": "Evening (4 PM - 7 PM)",
+      "name": "Rohan Mehra",
+      "phone": "+91 97234 11098",
+      "notes": "Handlebar clamp fitting required.",
+      "status": "Request saved on this device",
+      "createdAt": 1792747373903
+    }
+  ],
+  "chats": [
+    {
+      "problem": "starting",
+      "title": "Vehicle Starting / Battery Problem",
+      "messages": [
+        {
+          "from": "user",
+          "text": "Car clicks repeatedly when turning key in the morning, dashboard lights flicker.",
+          "timestamp": "10:15 AM"
+        },
+        {
+          "from": "mechanic",
+          "text": "Hi! That classic rapid clicking with flickering dash lights indicates low battery voltage or corroded terminals rather than a starter motor failure. Have you tested terminal tightness?",
+          "timestamp": "10:18 AM"
+        }
+      ]
+    },
+    {
+      "problem": "brakes",
+      "title": "Brake Noise & Pedal Feel",
+      "messages": [
+        {
+          "from": "user",
+          "text": "High-pitched squeal when braking at low speed in city traffic.",
+          "timestamp": "Yesterday"
+        },
+        {
+          "from": "mechanic",
+          "text": "Hi! Low speed squeal is often caused by brake pad wear indicator tabs or glazed friction material. Book an inspection before rotor scoring occurs.",
+          "timestamp": "Yesterday"
+        }
+      ]
+    }
+  ],
+  "accessRequests": [
+    {
+      "id": "REQ-MVM70A29",
+      "name": "Priya Joshi",
+      "email": "priya@autoflux.com",
+      "organization": "Workshop Quality Audit",
+      "reason": "Need access to inspect diagnostic logs and manage workshop listings.",
+      "createdAt": 1792833888753,
+      "status": "PENDING_OWNER_APPROVAL"
+    },
+    {
+      "id": "REQ-MVM6YJXP",
+      "name": "Priya Joshi",
+      "email": "priya@autoflux.com",
+      "organization": "Workshop Quality Audit",
+      "reason": "Need access to inspect diagnostic logs and manage workshop listings.",
+      "createdAt": 1792833808237,
+      "status": "PENDING_OWNER_APPROVAL"
+    }
+  ]
+}
