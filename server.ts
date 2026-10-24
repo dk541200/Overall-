@@ -76,8 +76,8 @@ if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 
-// Password hashing helper using PBKDF2
-const ADMIN_SALT = process.env.ADMIN_SALT || 'autoflux_secure_salt_2026';
+// Password hashing helper using PBKDF2 with secure random salt fallback
+const ADMIN_SALT = process.env.ADMIN_SALT || crypto.randomBytes(32).toString('hex');
 function hashPassword(password: string, salt: string = ADMIN_SALT): string {
   return crypto.pbkdf2Sync(password, salt, 10000, 64, 'sha512').toString('hex');
 }
